@@ -1,0 +1,33 @@
+html, body, header, section, aside, footer, div, span, ul, li, a, input{
+	position:relative;
+	padding:0;
+	margin:0;
+	border:none;
+	outline:none;
+	box-sizing:border-box;
+
+	-webkit-transition: all .2s ease-in-out; 
+
+
+	font-family: Helvetica, arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+	font-weight:normal;   
+}
+body{
+	background:#FFF;
+
+	padding-bottom:200px;
+	width:800px;
+	margin:100px auto;
+}
+
+h1{
+	font-size:42px;
+}
+
+pre{
+	padding:10px;
+	background-color:#000;
+	color:#FFF;
+}
